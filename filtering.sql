@@ -11,3 +11,7 @@ FROM sales;
 
 SELECT AVG(quantity)
 FROM sales;
+
+select count (*)
+from sales
+group by customer_id
